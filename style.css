@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+    baox-sizing:border-box;
+    font-family: "popins",sans-serif;
+}
+body{
+    color: beige;
+}
+.header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100;
+    padding: 20px 10px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: bisque;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a{
+    display: inline-block;
+    font-size: 25px;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 3s;
+}
+.navbar a:hover{
+    color: skyblue;
+}
+.home{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: url(img/bg-boy.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+.home-content{
+    font-size: 32px;
+    font-weight: 700;
+    
+}
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+
+}
+.home-content h1{
+    font-size: 20px;
+ 
+
+}
