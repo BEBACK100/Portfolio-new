@@ -6,6 +6,7 @@
 }
 body{
     color: beige;
+  
 }
 .header{
     position:fixed;
@@ -39,12 +40,15 @@ body{
     color: skyblue;
 }
 .home{
-    position: relative;
+    position: absolute;
     width: 100%;
     justify-content: space-between;
-    height: 100vh;
-    background: url(img/bg-boy.jpg) no-repeat;
-    background-size: cover;
+    height: 800px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: url(img/bg\ img-2.jpg) no-repeat;
+    background-size:cover;
     background-position: center;
     display: flex;
     align-items: center;
@@ -64,5 +68,43 @@ body{
 .home-content h1{
     font-size: 20px;
  
+}
+.home-content h3 span{
+    color: aqua;
+    
+}
+.home-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid lightskyblue;
+    border-radius: 50%;
+    font-size: 20px;
+    color: aqua;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+}
+.home-sci a:hover{
+    color: black;
+    background-color: aqua;
+    box-shadow: 0 0 20px aqua;
+}
+.btn-box{
+    display: inline-block;
+    padding: 12px 20px;
+    background: aqua;
+    border-radius: 40px;
+    font-size: 14px;
+    color: black;
+    letter-spacing: 1px;
+    text-decoration:none;
+    font-weight: 600;
 
+}
+.btn-box:hover{
+    box-shadow: 0 0 25px aqua;
+     
 }
